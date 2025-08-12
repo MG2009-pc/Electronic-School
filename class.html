@@ -114,13 +114,16 @@
 <center><h1 style="color: black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">CHOOSE YOUR SCHOOL ZONE</h1></center>
 <center><h1 style="color: black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 40px;">اختر منطقه مدرستك</h1></center>
  </div><center>
-
+  <center><h2>من هنا يمكن ان تختار المنطقه او المحافظه التي تعيش بها</h2></center>
+ <center><h2>حيث يوجد في كل محافظه عدد محدد من المدارس الثانويه</h2></center>
+  <center><h2>ومن خلال الموقع الالكتروني يمكن معرفه موقعها علي الخريطه</h2></center>
+    <center><h2>وعدد طلابها وفصولها وجميع المعلومات الارشاديه عنها</h2></center>
 <br>
 <br>
 <center>
- <div>
-    
-    <select id="governorate" name="governorate" style="width: 300px; height: 40px; font-size: 16px; padding: 5px; border-radius: 8px; border: 2px solid #ffd000;">
+ <div style="border: double; border-radius: 20px; background: linear-gradient(rgba(0, 255, 179, 0.445) , rgba(0, 30, 128, 0.329)); ">
+    <br>
+    <select id="governorate" name="governorate" style="width: 300px; height: 40px; font-size: 16px; padding: 5px; border-radius: 20px; border: 2px solid #ffd000; height: 50px;">
       <option value=""> Select Governorate </option>
       <option value="cairo.html">Cairo - القاهرة</option>
       <option value="giza.html">Giza - الجيزة</option>
@@ -150,10 +153,13 @@
       <option value="damietta.html">Damietta - دمياط</option>
       <option value="port_said.html">Port Said - بورسعيد</option>
     </select>
+    <br>
+    <br>
+    <button onclick="goToGovernorate()" style="width: 200px;">GO</button>
+<br>
   </div>
   <br>
-   <button onclick="goToGovernorate()">GO</button>
-
+   
 <script>
 function goToGovernorate() {
   let select = document.getElementById("governorate");
@@ -170,7 +176,7 @@ function goToGovernorate() {
 <br>
 <br>
 <center>
-       <a href="index2.html" >
+       <a href="st.html" >
                 <button >
                     <h2>BACK</h2>
                 </button>
@@ -181,6 +187,7 @@ function goToGovernorate() {
             <center><h2 style="color: rgb(0, 80, 146); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">DIGITOPIA</h2></center>
             <br>
             <center><img src="download.png" ></center>
+            <center><img src="Ministry_of_Education_(Egypt)_logo_(wikiar).png" width="200px" ></center>
 <center><img src="kkkk.png" width="300px" ></center></section>
 
 </body>
